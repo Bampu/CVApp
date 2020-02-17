@@ -3,14 +3,10 @@ package com.example.cvapp.cv.presenter
 import com.example.cvapp.base.presenter.BasePresenter
 import com.example.cvapp.base.view.AbstractView
 
-
-class SettingsPresenter : BasePresenter<SettingsPresenter.View>() {
-
-
-    init {
-    }
+class DetailsPresenter : BasePresenter<DetailsPresenter.View>() {
 
 
-    interface View : AbstractView{
+    interface View : AbstractView {
+
     }
 }

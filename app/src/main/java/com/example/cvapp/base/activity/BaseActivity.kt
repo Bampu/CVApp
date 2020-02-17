@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import com.example.cvapp.base.presenter.BasePresenter
 import com.example.cvapp.base.view.AbstractView
 
-abstract class BaseActivity<in V: AbstractView, P : BasePresenter<V>> : AppCompatActivity(), AbstractView {
+abstract class BaseActivity<P: BasePresenter<V>, V: AbstractView> : AppCompatActivity(), AbstractView {
 
     protected abstract var presenter: P
 
