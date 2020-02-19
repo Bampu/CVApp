@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+              android:background="@color/colorFragment"
+              android:padding="@dimen/normal_padding"
+              android:orientation="vertical"
+              android:layout_height="match_parent">
+
+
+    <TextView android:id="@+id/langs"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingBottom="@dimen/normal_padding"
+              android:text="Programming languages: "
+              tools:text="Android Developer"/>
+
+    <TextView android:id="@+id/archs"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingBottom="@dimen/normal_padding"
+              android:text="Architectures: "
+              tools:text="795-128-551"/>
+
+    <TextView android:id="@+id/frameworks"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingBottom="@dimen/normal_padding"
+              android:text="Frameworks: "
+              tools:text="konrad4a@gmail.com"/>
+</LinearLayout>

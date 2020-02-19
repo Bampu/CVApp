@@ -1,34 +1,14 @@
 package com.example.cvapp.cv.model
 
-class DataModel(private val firstName: String, private val lastName: String, private val age: Int) {
-   data class Info(
-       val firstName: String,
-       val lastName: String,
-       val age: Int
-       //val skills: Skills
-   )
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
 
-//    data class Skills(
-//        val langs: ArrayList<String> = arrayListOf(),
-//        val archs: ArrayList<String> = arrayListOf()
-//    )
+class DataModel {
 
+    @Parcelize
+    data class Data(
+        val personal: PersonalData,
+        val experience: Experience,
+        val technical: Technical
+    ) : Parcelable
 }
-
-
-//{
-//    "firstName": "konrad",
-//    "lastName": "tompór",
-//    "age": 28,
-//    "skills": {
-//    "archiceture": [
-//    "mvp",
-//    "mvvm"
-//    ],
-//    "languages": [
-//    "cpp",
-//    "java",
-//    "kotlin"
-//    ]
-//}
-//}

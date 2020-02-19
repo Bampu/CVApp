@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Cv app</string>
+    <string name="app_name">Curriculum Vitae</string>
+    <string name="cv_personal_position">Position:</string>
+    <string name="cv_personal_phone_number">Numer tel.:</string>
+    <string name="cv_personal_email">Email:</string>
+    <string name="cv_personal_city">City:</string>
+    <string name="cv_linkedin_label">LinkedIn:</string>
+    <string name="cv_experience_company">Company:</string>
+    <string name="cv_experience_start_date">Start date:</string>
+    <string name="cv_experience_end_date">End date:</string>
+
 </resources>

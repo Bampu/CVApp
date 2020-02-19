@@ -2,15 +2,16 @@ package com.example.cvapp.base.presenter
 
 import com.example.cvapp.base.view.AbstractView
 
-abstract class BasePresenter<V: AbstractView> {
+abstract class BasePresenter<V: AbstractView> : Presenter<V> {
 
-    private var view: V? = null
+    protected var view: V? = null
 
-    fun attachView(view: V) {
+    override fun attachView(view: V) {
         this.view = view
     }
 
-    fun detachView() {
+    override fun detachView() {
         view = null
     }
+
 }
